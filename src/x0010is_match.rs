@@ -5,9 +5,9 @@ impl Solution {
         let s = Vec::from(s);
         let p = Vec::from(p);
         let m = s.len();
-		let n = p.len();
-		
-        let mut f = vec![vec![false; n+1]; m+1];
+        let n = p.len();
+
+        let mut f = vec![vec![false; n + 1]; m + 1];
         f[0][0] = true;
 
         let matches = |i, j| {

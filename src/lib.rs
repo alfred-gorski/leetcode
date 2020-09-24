@@ -2,11 +2,20 @@
 // #![feature(proc_macro_hygiene)]
 
 // 不用 *, 否则智能提示会出现奇奇怪怪的问题
-pub use leetcode_prelude::{linkedlist, btree, leetcode_test, vec_string, ListNode, TreeNode, assert_eq_sorted};
+pub use leetcode_prelude::{
+    assert_eq_sorted, btree, leetcode_test, linkedlist, vec_string, ListNode, TreeNode,
+};
 
-pub mod two_sum; //001 HashMap
-pub mod is_match; //010 DP
-pub mod first_missing_positive; //41 原地 Hash
-pub mod reconstruct_itineary; 
-pub mod lfu_cache; // 460 HashMap
-pub mod get_max_repetitions; //466 
+pub mod x0001two_sum;
+pub mod x0010is_match; //DP
+pub mod x0041first_missing_positive; // 原地哈希
+pub mod x0125is_palindrome; // 双指针
+pub mod x0201range_bitwise_and;
+pub mod x0218get_skyline; //分治, 线段树, 扫描线法
+pub mod x0332reconstruct_itineary; // 332 回溯
+pub mod x0460lfu_cache; // HashMap
+pub mod x0466get_max_repetitions;
+pub mod x0501find_mode; // 二叉树 Morris 遍历
+pub mod x0685find_redundant_directed_connection;
+pub mod x1109corp_flight_bookings; // 公交车算法
+pub mod x1434number_ways; //并查集 //001 HashMap //1434 DP

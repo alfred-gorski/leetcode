@@ -1,8 +1,8 @@
 impl Solution {
     pub fn first_missing_positive(nums: Vec<i32>) -> i32 {
         let len = nums.len() as i32;
-        if len==0{
-            return 1
+        if len == 0 {
+            return 1;
         }
         let mut nums = nums
             .iter()
@@ -22,10 +22,10 @@ impl Solution {
         }
         for (i, v) in nums.iter().enumerate() {
             if *v > 0 {
-                return (i+1) as i32;
+                return (i + 1) as i32;
             }
         }
-        len+1
+        len + 1
     }
 }
 
