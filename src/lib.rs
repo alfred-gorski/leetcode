@@ -8,7 +8,7 @@ pub use leetcode_prelude::{
 
 pub mod x0001two_sum; //HashMap
 pub mod x0010is_match; //DP
-pub mod x0023merge_k_lists;
+pub mod x0023merge_k_lists; // 链表操作，优先级队列
 pub mod x0041first_missing_positive; // 原地哈希
 pub mod x0113path_sum; //  回溯
 pub mod x0125is_palindrome; // 双指针
@@ -20,5 +20,6 @@ pub mod x0466get_max_repetitions;
 pub mod x0501find_mode; // 二叉树 Morris 遍历
 pub mod x0685find_redundant_directed_connection; //并查集
 pub mod x0861matrix_score; // 贪心
+pub mod x1104path_in_zig_zag_tree;
 pub mod x1109corp_flight_bookings; // 公交车算法
 pub mod x1434number_ways; // DP
