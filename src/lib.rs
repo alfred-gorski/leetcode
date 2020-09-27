@@ -8,8 +8,9 @@ pub use leetcode_prelude::{
 
 pub mod x0001two_sum; //HashMap
 pub mod x0010is_match; //DP
+pub mod x0023merge_k_lists;
 pub mod x0041first_missing_positive; // 原地哈希
-pub mod x0113path_sum;
+pub mod x0113path_sum; //  回溯
 pub mod x0125is_palindrome; // 双指针
 pub mod x0201range_bitwise_and;
 pub mod x0218get_skyline; //分治, 线段树, 扫描线法
