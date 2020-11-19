@@ -13,7 +13,7 @@ impl Solution {
         ans
     }
 
-    pub fn dfs(
+    fn dfs(
         root: Option<&Rc<RefCell<TreeNode>>>,
         mut sum: i32,
         path: &mut Vec<i32>,
