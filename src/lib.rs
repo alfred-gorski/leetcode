@@ -25,3 +25,4 @@ pub mod x0862shortest_subarray; //前缀和, 单调栈
 pub mod x1104path_in_zig_zag_tree; //数学类
 pub mod x1109corp_flight_bookings; // 公交车算法
 pub mod x1434number_ways; // DP
+pub mod x1489find_critical_and_pseudo_critical_edges;
