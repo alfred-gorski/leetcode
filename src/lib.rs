@@ -14,6 +14,7 @@ pub mod x0113path_sum; // 回溯
 pub mod x0125is_palindrome; // 双指针
 pub mod x0201range_bitwise_and;
 pub mod x0218get_skyline; //分治, 线段树, 扫描线法
+pub mod x0274h_index;
 pub mod x0332reconstruct_itineary; // 回溯
 pub mod x0460lfu_cache; // HashMap
 pub mod x0466get_max_repetitions;

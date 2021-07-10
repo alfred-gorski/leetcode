@@ -4,7 +4,7 @@ impl Solution {
         if n1 == 0 {
             return 0;
         }
-        let (s1, s2) = (Vec::from(s1), Vec::from(s2));
+        let (s1, s2) = (s1.into_bytes(), s2.into_bytes());
         let mut s1cnt: usize = 0;
         let mut index: usize = 0;
         let mut s2cnt: usize = 0;
